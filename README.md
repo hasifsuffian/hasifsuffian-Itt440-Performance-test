@@ -114,12 +114,14 @@ The result of the test is as shown below which is from the graph.
 # Test result
 # Load test
 The first test that I will do is load test which is to check the stability of the website when a few users enter the page. So, by doing the test you can see the response time and stability when there are a few people log in to the website. The scope is to run under normal operating condition, and the outcome is to see the throughput, latency, and resource usage. The function is to avoid failure from happening on a running website.
-From the test we can see that the website is stable and able to maintain its connection when there are 1000 users in the website in 5 minutes. After load test is done the thread is close in  
+From the test we can see that the website is stable and able to maintain its connection when there are 1000 users in the website in 5 minutes. After load test is done the threads gradually stop sending requests.  
+
  
 
 # Stress test
 The second test is the stress test where we will check the website capability when handling a lot of users under extreme load. The scope of the test is to operate beyond normal limits and to see the stability, error handling and recovery of the website. This test is to observe failure and recovery of the website.
-In this test you can see that the average response time is reduced when it reaches 755 ms and starts to recover back and get to 720+. At that point the web fluctuates, drops then stabilizes, indicating a recovery or optimization event.
+In this test you can see that the average response time is reduced when it reaches 755 ms and starts to recover back and get to 720+. At that point the web fluctuates, drops then stabilizes, indicating a recovery or optimization event.  
+<img width="319" height="226" alt="Image" src="https://github.com/user-attachments/assets/f777dc20-e2d1-4763-832c-59eb40a6cda3" />
  
 
 # Spike test
