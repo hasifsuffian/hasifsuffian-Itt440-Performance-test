@@ -115,6 +115,7 @@ The result of the test is as shown below which is from the graph.
 # Load test
 The first test that I will do is load test which is to check the stability of the website when a few users enter the page. So, by doing the test you can see the response time and stability when there are a few people log in to the website. The scope is to run under normal operating condition, and the outcome is to see the throughput, latency, and resource usage. The function is to avoid failure from happening on a running website.
 From the test we can see that the website is stable and able to maintain its connection when there are 1000 users in the website in 5 minutes. After load test is done the threads gradually stop sending requests.  
+<img width="326" height="233" alt="Image" src="https://github.com/user-attachments/assets/8964f869-4ad4-453d-95d1-df3976916e9d" />
 
  
 
