@@ -114,8 +114,7 @@ The result of the test is as shown below which is from the graph.
 # Test result
 # Load test
 The first test that I will do is load test which is to check the stability of the website when a few users enter the page. So, by doing the test you can see the response time and stability when there are a few people log in to the website. The scope is to run under normal operating condition, and the outcome is to see the throughput, latency, and resource usage. The function is to avoid failure from happening on a running website.
-From the test we can see that the website is stable and able to maintain its connection when there are 1000 users in the website in 5 minutes. After load test is done the thread is close in 
-
+From the test we can see that the website is stable and able to maintain its connection when there are 1000 users in the website in 5 minutes. After load test is done the thread is close in  
  
 
 # Stress test
@@ -125,7 +124,8 @@ In this test you can see that the average response time is reduced when it reach
 
 # Spike test
 The third test that we will perform is the spike test which will assess the website performance when the system suddenly subjected to a sharp, extreme increase in load to evaluate how it reacts to abrupt traffic change. The main purpose is to see whether the website can handle the sudden burst of traffic without crashing, slow down excessively or corrupting data. 
-Here we can see that the graph fall drastically showing that the response drop due to the spike test that is perform which has shock the server and causing the response time to drop by a lot after a few second the request has recover showing that this is the bottleneck for the website. After the sudden shock the response time continue to grow increase and maintain back its stability to the original response over time. 
+Here we can see that the graph fall drastically showing that the response drop due to the spike test that is perform which has shock the server and causing the response time to drop by a lot after a few second the request has recover showing that this is the bottleneck for the website. After the sudden shock the response time continue to grow increase and maintain back its stability to the original response over time.  
+<img width="327" height="245" alt="Image" src="https://github.com/user-attachments/assets/3caa3f74-588b-4956-8c60-ecd80f004434" /> 
 
  
 # Conclusion:
