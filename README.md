@@ -133,9 +133,10 @@ Here we can see that the graph fall drastically showing that the response drop d
 The system is functionally stable with minimal errors.However, latency hotspots in the "Home" and "HTTP Request" endpoints indicate performance bottlenecks under load. These should be targeted for profiling and optimization, especially if user experience or SLA thresholds demand sub-500 ms response times.
 
 # Spike test 
-The spike test successfully revealed critical performance weaknesses in the "HTTP Request" endpoint.
+The spike test successfully revealed critical performance weaknesses in the "HTTP Request" endpoint.  
 -	The system can handle high throughput, but latency and error rates spike sharply under sudden load.
-Immediate action should include:
+
+# Immediate action should include:  
 -	Profiling the failing endpoint
 -	Optimizing backend logic
 -	Improving error handling and scaling mechanisms
