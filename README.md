@@ -31,6 +31,8 @@ use the link above to search for the zip file for the Jmeter application
 
 For the testing I’m doing this time I will be using the website [http://asciiart.artillery.io] to test whether it is stable or not by doing the load test, stress test and spike test.
 
+# Download the file groovy-xml-3.0.20.zip,oro-2.0.8.zip, xstream-1.4.20.zip and extract these file into one folder name lib
+
 # Hypothesis:
 Base on the test that has been conducted on the website the application will remain stable and responsive up to a moderate concurrency threshold of 110 simultaneous users.  After that point, performance degradation will occur due to resource contention in backend services, leading to increase latency, error rate and stagnation.
 
